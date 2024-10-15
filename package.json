@@ -1,0 +1,21 @@
+{
+  "name": "my-npm-express-app",
+  "version": "1.0.0",
+  "description": "My NPM Express App",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
